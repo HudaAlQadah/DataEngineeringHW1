@@ -1,0 +1,196 @@
+[2022-06-06 12:00:09,899] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:09,914] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:00:09,935] {logging_mixin.py:104} INFO - [2022-06-06 12:00:09,935] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:10,010] {logging_mixin.py:104} INFO - [2022-06-06 12:00:10,000] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 53
+    def converter(**kwargs):
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2022-06-06 12:00:10,029] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:10,482] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.645 seconds
+[2022-06-06 12:00:43,891] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:43,901] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:00:43,913] {logging_mixin.py:104} INFO - [2022-06-06 12:00:43,913] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:43,948] {logging_mixin.py:104} INFO - [2022-06-06 12:00:43,942] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 53
+    def converter(**kwargs):
+                           ^
+IndentationError: unindent does not match any outer indentation level
+[2022-06-06 12:00:43,971] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:00:44,269] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.426 seconds
+[2022-06-06 12:01:16,453] {scheduler_job.py:182} INFO - Started process (PID=108) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:16,461] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:01:16,465] {logging_mixin.py:104} INFO - [2022-06-06 12:01:16,465] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:16,765] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:16,883] {logging_mixin.py:104} INFO - [2022-06-06 12:01:16,883] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:01:16,909] {logging_mixin.py:104} INFO - [2022-06-06 12:01:16,909] {dag.py:1843} INFO - Creating ORM DAG for CSV_to_JSON
+[2022-06-06 12:01:16,925] {logging_mixin.py:104} INFO - [2022-06-06 12:01:16,925] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:51:16.925109+00:00
+[2022-06-06 12:01:17,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.582 seconds
+[2022-06-06 12:01:47,103] {scheduler_job.py:182} INFO - Started process (PID=135) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:47,107] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:01:47,111] {logging_mixin.py:104} INFO - [2022-06-06 12:01:47,111] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:47,194] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:01:47,341] {logging_mixin.py:104} INFO - [2022-06-06 12:01:47,340] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:01:47,445] {logging_mixin.py:104} INFO - [2022-06-06 12:01:47,445] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:51:47.444921+00:00
+[2022-06-06 12:01:47,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.403 seconds
+[2022-06-06 12:02:17,597] {scheduler_job.py:182} INFO - Started process (PID=163) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:17,617] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:02:17,623] {logging_mixin.py:104} INFO - [2022-06-06 12:02:17,622] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:17,675] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:17,720] {logging_mixin.py:104} INFO - [2022-06-06 12:02:17,719] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:02:17,775] {logging_mixin.py:104} INFO - [2022-06-06 12:02:17,775] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:52:17.775382+00:00
+[2022-06-06 12:02:17,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.226 seconds
+[2022-06-06 12:02:48,202] {scheduler_job.py:182} INFO - Started process (PID=190) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:48,205] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:02:48,208] {logging_mixin.py:104} INFO - [2022-06-06 12:02:48,208] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:48,281] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:02:48,453] {logging_mixin.py:104} INFO - [2022-06-06 12:02:48,453] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:02:48,523] {logging_mixin.py:104} INFO - [2022-06-06 12:02:48,523] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:52:48.521944+00:00
+[2022-06-06 12:02:48,583] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.395 seconds
+[2022-06-06 12:03:18,813] {scheduler_job.py:182} INFO - Started process (PID=218) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:18,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:03:18,822] {logging_mixin.py:104} INFO - [2022-06-06 12:03:18,822] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:18,870] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:18,922] {logging_mixin.py:104} INFO - [2022-06-06 12:03:18,922] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:03:18,945] {logging_mixin.py:104} INFO - [2022-06-06 12:03:18,945] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:53:18.945339+00:00
+[2022-06-06 12:03:18,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.164 seconds
+[2022-06-06 12:03:49,990] {scheduler_job.py:182} INFO - Started process (PID=245) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:50,003] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:03:50,007] {logging_mixin.py:104} INFO - [2022-06-06 12:03:50,006] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:50,113] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:03:50,206] {logging_mixin.py:104} INFO - [2022-06-06 12:03:50,206] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:03:50,247] {logging_mixin.py:104} INFO - [2022-06-06 12:03:50,247] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 11:53:50.246885+00:00
+[2022-06-06 12:03:50,264] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.309 seconds
+[2022-06-06 12:04:20,854] {scheduler_job.py:182} INFO - Started process (PID=272) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:20,863] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:04:20,867] {logging_mixin.py:104} INFO - [2022-06-06 12:04:20,866] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:20,939] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:20,988] {logging_mixin.py:104} INFO - [2022-06-06 12:04:20,988] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:04:21,022] {logging_mixin.py:104} INFO - [2022-06-06 12:04:21,022] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:04:21,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.202 seconds
+[2022-06-06 12:04:51,669] {scheduler_job.py:182} INFO - Started process (PID=299) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:51,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:04:51,681] {logging_mixin.py:104} INFO - [2022-06-06 12:04:51,681] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:51,752] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:04:51,798] {logging_mixin.py:104} INFO - [2022-06-06 12:04:51,798] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:04:51,823] {logging_mixin.py:104} INFO - [2022-06-06 12:04:51,823] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:04:51,844] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.184 seconds
+[2022-06-06 12:05:24,145] {scheduler_job.py:182} INFO - Started process (PID=326) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:24,150] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:05:24,155] {logging_mixin.py:104} INFO - [2022-06-06 12:05:24,154] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:24,260] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:24,321] {logging_mixin.py:104} INFO - [2022-06-06 12:05:24,321] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:05:24,359] {logging_mixin.py:104} INFO - [2022-06-06 12:05:24,358] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:05:24,383] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.244 seconds
+[2022-06-06 12:05:54,605] {scheduler_job.py:182} INFO - Started process (PID=353) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:54,619] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:05:54,623] {logging_mixin.py:104} INFO - [2022-06-06 12:05:54,623] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:54,731] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:05:54,876] {logging_mixin.py:104} INFO - [2022-06-06 12:05:54,876] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:05:54,980] {logging_mixin.py:104} INFO - [2022-06-06 12:05:54,980] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:05:55,023] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.429 seconds
+[2022-06-06 12:06:26,195] {scheduler_job.py:182} INFO - Started process (PID=380) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:26,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:06:26,510] {logging_mixin.py:104} INFO - [2022-06-06 12:06:26,510] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:26,886] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:26,984] {logging_mixin.py:104} INFO - [2022-06-06 12:06:26,984] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:06:27,063] {logging_mixin.py:104} INFO - [2022-06-06 12:06:27,062] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:06:27,116] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.949 seconds
+[2022-06-06 12:06:57,442] {scheduler_job.py:182} INFO - Started process (PID=407) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:57,451] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:06:57,459] {logging_mixin.py:104} INFO - [2022-06-06 12:06:57,458] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:57,532] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:06:57,594] {logging_mixin.py:104} INFO - [2022-06-06 12:06:57,594] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:06:57,663] {logging_mixin.py:104} INFO - [2022-06-06 12:06:57,663] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:06:57,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.314 seconds
+[2022-06-06 12:07:28,098] {scheduler_job.py:182} INFO - Started process (PID=434) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:28,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:07:28,119] {logging_mixin.py:104} INFO - [2022-06-06 12:07:28,119] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:28,193] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:28,269] {logging_mixin.py:104} INFO - [2022-06-06 12:07:28,269] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:07:28,315] {logging_mixin.py:104} INFO - [2022-06-06 12:07:28,315] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:07:28,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.247 seconds
+[2022-06-06 12:07:58,703] {scheduler_job.py:182} INFO - Started process (PID=461) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:58,711] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:07:58,714] {logging_mixin.py:104} INFO - [2022-06-06 12:07:58,713] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:58,776] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:07:58,814] {logging_mixin.py:104} INFO - [2022-06-06 12:07:58,814] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:07:58,850] {logging_mixin.py:104} INFO - [2022-06-06 12:07:58,848] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:07:58,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.184 seconds
+[2022-06-06 12:08:29,331] {scheduler_job.py:182} INFO - Started process (PID=488) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:29,342] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:08:29,348] {logging_mixin.py:104} INFO - [2022-06-06 12:08:29,347] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:29,447] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:29,534] {logging_mixin.py:104} INFO - [2022-06-06 12:08:29,534] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:08:29,575] {logging_mixin.py:104} INFO - [2022-06-06 12:08:29,575] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:08:29,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.281 seconds
+[2022-06-06 12:08:59,718] {scheduler_job.py:182} INFO - Started process (PID=515) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:59,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:08:59,728] {logging_mixin.py:104} INFO - [2022-06-06 12:08:59,728] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:59,829] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:08:59,879] {logging_mixin.py:104} INFO - [2022-06-06 12:08:59,879] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:08:59,909] {logging_mixin.py:104} INFO - [2022-06-06 12:08:59,909] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:08:59,930] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.217 seconds
+[2022-06-06 12:09:30,724] {scheduler_job.py:182} INFO - Started process (PID=542) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:09:30,735] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:09:30,753] {logging_mixin.py:104} INFO - [2022-06-06 12:09:30,752] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:09:30,809] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:09:30,847] {logging_mixin.py:104} INFO - [2022-06-06 12:09:30,847] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:09:30,876] {logging_mixin.py:104} INFO - [2022-06-06 12:09:30,876] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:09:30,895] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.229 seconds
+[2022-06-06 12:10:02,462] {scheduler_job.py:182} INFO - Started process (PID=569) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:02,470] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:10:02,488] {logging_mixin.py:104} INFO - [2022-06-06 12:10:02,487] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:02,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:02,660] {logging_mixin.py:104} INFO - [2022-06-06 12:10:02,660] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:10:02,806] {logging_mixin.py:104} INFO - [2022-06-06 12:10:02,806] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:10:02,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.457 seconds
+[2022-06-06 12:10:33,231] {scheduler_job.py:182} INFO - Started process (PID=596) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:33,236] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:10:33,240] {logging_mixin.py:104} INFO - [2022-06-06 12:10:33,240] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:33,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:10:33,315] {logging_mixin.py:104} INFO - [2022-06-06 12:10:33,315] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:10:33,390] {logging_mixin.py:104} INFO - [2022-06-06 12:10:33,389] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:10:33,437] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.211 seconds
+[2022-06-06 12:11:03,760] {scheduler_job.py:182} INFO - Started process (PID=623) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:03,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:11:03,802] {logging_mixin.py:104} INFO - [2022-06-06 12:11:03,801] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:03,891] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:03,941] {logging_mixin.py:104} INFO - [2022-06-06 12:11:03,941] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:11:03,972] {logging_mixin.py:104} INFO - [2022-06-06 12:11:03,972] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:11:04,017] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.282 seconds
+[2022-06-06 12:11:35,235] {scheduler_job.py:182} INFO - Started process (PID=650) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:35,242] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:11:35,245] {logging_mixin.py:104} INFO - [2022-06-06 12:11:35,245] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:35,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:11:35,354] {logging_mixin.py:104} INFO - [2022-06-06 12:11:35,353] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:11:35,384] {logging_mixin.py:104} INFO - [2022-06-06 12:11:35,384] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:11:35,406] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.182 seconds
+[2022-06-06 12:12:06,096] {scheduler_job.py:182} INFO - Started process (PID=677) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:06,099] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:12:06,103] {logging_mixin.py:104} INFO - [2022-06-06 12:12:06,103] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:06,216] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:06,298] {logging_mixin.py:104} INFO - [2022-06-06 12:12:06,298] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:12:06,328] {logging_mixin.py:104} INFO - [2022-06-06 12:12:06,327] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:12:06,347] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.267 seconds
+[2022-06-06 12:12:36,511] {scheduler_job.py:182} INFO - Started process (PID=704) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:36,517] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-06 12:12:36,522] {logging_mixin.py:104} INFO - [2022-06-06 12:12:36,522] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:36,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CSV_to_JSON']) retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-06 12:12:36,687] {logging_mixin.py:104} INFO - [2022-06-06 12:12:36,687] {dag.py:1824} INFO - Sync 1 DAGs
+[2022-06-06 12:12:36,715] {logging_mixin.py:104} INFO - [2022-06-06 12:12:36,715] {dag.py:2280} INFO - Setting next_dagrun for CSV_to_JSON to 2022-06-06 12:03:50.246885+00:00
+[2022-06-06 12:12:36,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.238 seconds

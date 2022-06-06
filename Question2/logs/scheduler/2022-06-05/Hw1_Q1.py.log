@@ -1,0 +1,1687 @@
+[2022-06-05 11:02:50,927] {scheduler_job.py:182} INFO - Started process (PID=1223) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:02:50,929] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:02:50,932] {logging_mixin.py:104} INFO - [2022-06-05 11:02:50,932] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:02:50,961] {logging_mixin.py:104} INFO - [2022-06-05 11:02:50,953] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:02:50,965] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:02:51,008] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.086 seconds
+[2022-06-05 11:03:21,757] {scheduler_job.py:182} INFO - Started process (PID=1250) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:21,760] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:03:21,762] {logging_mixin.py:104} INFO - [2022-06-05 11:03:21,762] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:21,775] {logging_mixin.py:104} INFO - [2022-06-05 11:03:21,774] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:03:21,779] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:21,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.065 seconds
+[2022-06-05 11:03:52,477] {scheduler_job.py:182} INFO - Started process (PID=1277) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:52,479] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:03:52,493] {logging_mixin.py:104} INFO - [2022-06-05 11:03:52,492] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:52,507] {logging_mixin.py:104} INFO - [2022-06-05 11:03:52,505] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:03:52,512] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:03:52,545] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.072 seconds
+[2022-06-05 11:04:23,388] {scheduler_job.py:182} INFO - Started process (PID=1304) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:23,392] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:04:23,394] {logging_mixin.py:104} INFO - [2022-06-05 11:04:23,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:23,411] {logging_mixin.py:104} INFO - [2022-06-05 11:04:23,408] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:04:23,416] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:23,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.068 seconds
+[2022-06-05 11:04:54,174] {scheduler_job.py:182} INFO - Started process (PID=1331) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:54,177] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:04:54,181] {logging_mixin.py:104} INFO - [2022-06-05 11:04:54,181] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:54,194] {logging_mixin.py:104} INFO - [2022-06-05 11:04:54,193] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:04:54,197] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:04:54,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.057 seconds
+[2022-06-05 11:05:25,108] {scheduler_job.py:182} INFO - Started process (PID=1358) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:25,131] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:05:25,141] {logging_mixin.py:104} INFO - [2022-06-05 11:05:25,140] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:25,165] {logging_mixin.py:104} INFO - [2022-06-05 11:05:25,164] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:05:25,173] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:25,202] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.099 seconds
+[2022-06-05 11:05:56,157] {scheduler_job.py:182} INFO - Started process (PID=1385) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:56,160] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:05:56,162] {logging_mixin.py:104} INFO - [2022-06-05 11:05:56,162] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:56,196] {logging_mixin.py:104} INFO - [2022-06-05 11:05:56,181] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:05:56,215] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:05:56,253] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.101 seconds
+[2022-06-05 11:06:26,888] {scheduler_job.py:182} INFO - Started process (PID=1412) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:26,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:06:26,892] {logging_mixin.py:104} INFO - [2022-06-05 11:06:26,892] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:26,906] {logging_mixin.py:104} INFO - [2022-06-05 11:06:26,904] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:06:26,909] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:26,935] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.053 seconds
+[2022-06-05 11:06:57,648] {scheduler_job.py:182} INFO - Started process (PID=1439) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:57,650] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:06:57,652] {logging_mixin.py:104} INFO - [2022-06-05 11:06:57,652] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:57,666] {logging_mixin.py:104} INFO - [2022-06-05 11:06:57,664] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:06:57,681] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:06:57,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.064 seconds
+[2022-06-05 11:07:28,035] {scheduler_job.py:182} INFO - Started process (PID=1466) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:28,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:07:28,053] {logging_mixin.py:104} INFO - [2022-06-05 11:07:28,052] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:28,073] {logging_mixin.py:104} INFO - [2022-06-05 11:07:28,071] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:07:28,076] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:28,127] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.105 seconds
+[2022-06-05 11:07:58,698] {scheduler_job.py:182} INFO - Started process (PID=1493) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:58,701] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:07:58,705] {logging_mixin.py:104} INFO - [2022-06-05 11:07:58,704] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:58,723] {logging_mixin.py:104} INFO - [2022-06-05 11:07:58,722] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:07:58,728] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:07:58,763] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.075 seconds
+[2022-06-05 11:15:12,657] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:12,668] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:15:12,690] {logging_mixin.py:104} INFO - [2022-06-05 11:15:12,689] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:12,747] {logging_mixin.py:104} INFO - [2022-06-05 11:15:12,740] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:15:12,760] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:12,927] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.304 seconds
+[2022-06-05 11:15:43,496] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:43,502] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:15:43,514] {logging_mixin.py:104} INFO - [2022-06-05 11:15:43,514] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:43,601] {logging_mixin.py:104} INFO - [2022-06-05 11:15:43,599] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:15:43,619] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:15:43,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.290 seconds
+[2022-06-05 11:16:14,569] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:14,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:16:14,638] {logging_mixin.py:104} INFO - [2022-06-05 11:16:14,622] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:14,726] {logging_mixin.py:104} INFO - [2022-06-05 11:16:14,723] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:16:14,742] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:19,627] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 5.251 seconds
+[2022-06-05 11:16:50,368] {scheduler_job.py:182} INFO - Started process (PID=102) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:50,374] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:16:50,378] {logging_mixin.py:104} INFO - [2022-06-05 11:16:50,377] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:50,405] {logging_mixin.py:104} INFO - [2022-06-05 11:16:50,402] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:16:50,411] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:16:50,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.111 seconds
+[2022-06-05 11:17:20,514] {scheduler_job.py:182} INFO - Started process (PID=129) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:20,518] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:17:20,521] {logging_mixin.py:104} INFO - [2022-06-05 11:17:20,521] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:20,540] {logging_mixin.py:104} INFO - [2022-06-05 11:17:20,537] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:17:20,546] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:20,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.099 seconds
+[2022-06-05 11:17:50,750] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:50,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:17:50,759] {logging_mixin.py:104} INFO - [2022-06-05 11:17:50,759] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:50,780] {logging_mixin.py:104} INFO - [2022-06-05 11:17:50,779] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:17:50,785] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:17:50,830] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.095 seconds
+[2022-06-05 11:18:21,049] {scheduler_job.py:182} INFO - Started process (PID=183) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:21,052] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:18:21,057] {logging_mixin.py:104} INFO - [2022-06-05 11:18:21,057] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:21,080] {logging_mixin.py:104} INFO - [2022-06-05 11:18:21,076] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:18:21,087] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:21,132] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.093 seconds
+[2022-06-05 11:18:51,315] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:51,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:18:51,328] {logging_mixin.py:104} INFO - [2022-06-05 11:18:51,328] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:51,343] {logging_mixin.py:104} INFO - [2022-06-05 11:18:51,342] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:18:51,350] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:18:51,390] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.079 seconds
+[2022-06-05 11:19:22,208] {scheduler_job.py:182} INFO - Started process (PID=237) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:22,214] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:19:22,217] {logging_mixin.py:104} INFO - [2022-06-05 11:19:22,217] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:22,241] {logging_mixin.py:104} INFO - [2022-06-05 11:19:22,238] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:19:22,255] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:22,299] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.105 seconds
+[2022-06-05 11:19:53,108] {scheduler_job.py:182} INFO - Started process (PID=264) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:53,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:19:53,119] {logging_mixin.py:104} INFO - [2022-06-05 11:19:53,118] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:53,150] {logging_mixin.py:104} INFO - [2022-06-05 11:19:53,144] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:19:53,160] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:19:53,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.118 seconds
+[2022-06-05 11:20:23,554] {scheduler_job.py:182} INFO - Started process (PID=291) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:23,565] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:20:23,567] {logging_mixin.py:104} INFO - [2022-06-05 11:20:23,567] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:23,582] {logging_mixin.py:104} INFO - [2022-06-05 11:20:23,581] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:20:23,587] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:23,617] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.068 seconds
+[2022-06-05 11:20:54,500] {scheduler_job.py:182} INFO - Started process (PID=318) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:54,515] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:20:54,529] {logging_mixin.py:104} INFO - [2022-06-05 11:20:54,528] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:54,597] {logging_mixin.py:104} INFO - [2022-06-05 11:20:54,596] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:20:54,630] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:20:54,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.227 seconds
+[2022-06-05 11:21:26,379] {scheduler_job.py:182} INFO - Started process (PID=345) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:21:26,404] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:21:26,423] {logging_mixin.py:104} INFO - [2022-06-05 11:21:26,422] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:21:26,485] {logging_mixin.py:104} INFO - [2022-06-05 11:21:26,477] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:21:26,495] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:21:26,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.284 seconds
+[2022-06-05 11:22:03,006] {scheduler_job.py:182} INFO - Started process (PID=365) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:03,017] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:22:03,026] {logging_mixin.py:104} INFO - [2022-06-05 11:22:03,026] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:03,125] {logging_mixin.py:104} INFO - [2022-06-05 11:22:03,111] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:22:03,135] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:03,414] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.489 seconds
+[2022-06-05 11:22:33,814] {scheduler_job.py:182} INFO - Started process (PID=392) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:33,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:22:33,827] {logging_mixin.py:104} INFO - [2022-06-05 11:22:33,827] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:33,865] {logging_mixin.py:104} INFO - [2022-06-05 11:22:33,864] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:22:33,911] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:22:34,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.381 seconds
+[2022-06-05 11:23:04,932] {scheduler_job.py:182} INFO - Started process (PID=418) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:04,946] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:23:04,967] {logging_mixin.py:104} INFO - [2022-06-05 11:23:04,951] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:05,004] {logging_mixin.py:104} INFO - [2022-06-05 11:23:05,002] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:23:05,022] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:05,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.263 seconds
+[2022-06-05 11:23:35,382] {scheduler_job.py:182} INFO - Started process (PID=445) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:35,389] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:23:35,395] {logging_mixin.py:104} INFO - [2022-06-05 11:23:35,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:35,442] {logging_mixin.py:104} INFO - [2022-06-05 11:23:35,440] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:23:35,456] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:23:35,504] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.132 seconds
+[2022-06-05 11:24:06,106] {scheduler_job.py:182} INFO - Started process (PID=472) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:06,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:24:06,115] {logging_mixin.py:104} INFO - [2022-06-05 11:24:06,114] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:06,139] {logging_mixin.py:104} INFO - [2022-06-05 11:24:06,138] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 45
+    client = MongoClient("mongodb://mongoadmin:mongo@de_mongo:27017")
+    ^
+IndentationError: unexpected indent
+[2022-06-05 11:24:06,147] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:06,196] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.097 seconds
+[2022-06-05 11:24:36,969] {scheduler_job.py:182} INFO - Started process (PID=499) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:36,977] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:24:36,994] {logging_mixin.py:104} INFO - [2022-06-05 11:24:36,993] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:41,463] {logging_mixin.py:104} INFO - [2022-06-05 11:24:41,459] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:24:41,474] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:24:41,547] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 4.597 seconds
+[2022-06-05 11:25:12,847] {scheduler_job.py:182} INFO - Started process (PID=531) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:25:12,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:25:12,872] {logging_mixin.py:104} INFO - [2022-06-05 11:25:12,872] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:25:22,499] {logging_mixin.py:104} INFO - [2022-06-05 11:25:22,499] {process_utils.py:206} INFO - Waiting up to 5 seconds for processes to exit...
+[2022-06-05 11:27:01,576] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:01,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:27:01,633] {logging_mixin.py:104} INFO - [2022-06-05 11:27:01,633] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:16,060] {logging_mixin.py:104} INFO - [2022-06-05 11:27:16,034] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:27:16,090] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:16,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 15.026 seconds
+[2022-06-05 11:27:47,314] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:47,346] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:27:47,352] {logging_mixin.py:104} INFO - [2022-06-05 11:27:47,350] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:54,829] {logging_mixin.py:104} INFO - [2022-06-05 11:27:54,821] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:27:54,841] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:27:54,931] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 7.648 seconds
+[2022-06-05 11:28:32,265] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:28:32,288] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:28:32,321] {logging_mixin.py:104} INFO - [2022-06-05 11:28:32,318] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:28:35,318] {logging_mixin.py:104} INFO - [2022-06-05 11:28:35,305] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:28:35,322] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:28:35,417] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.193 seconds
+[2022-06-05 11:29:12,214] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:12,224] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:29:12,235] {logging_mixin.py:104} INFO - [2022-06-05 11:29:12,234] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:15,971] {logging_mixin.py:104} INFO - [2022-06-05 11:29:15,963] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:29:15,984] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:16,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.899 seconds
+[2022-06-05 11:29:46,593] {scheduler_job.py:182} INFO - Started process (PID=153) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:46,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:29:46,618] {logging_mixin.py:104} INFO - [2022-06-05 11:29:46,617] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:48,360] {logging_mixin.py:104} INFO - [2022-06-05 11:29:48,350] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:29:48,368] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:29:48,534] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.998 seconds
+[2022-06-05 11:30:19,822] {scheduler_job.py:182} INFO - Started process (PID=180) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:30:19,850] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:30:19,862] {logging_mixin.py:104} INFO - [2022-06-05 11:30:19,862] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:30:23,272] {logging_mixin.py:104} INFO - [2022-06-05 11:30:23,266] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:30:23,286] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:30:23,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.641 seconds
+[2022-06-05 11:30:53,690] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:30:53,702] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:30:53,713] {logging_mixin.py:104} INFO - [2022-06-05 11:30:53,706] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:31:01,228] {logging_mixin.py:104} INFO - [2022-06-05 11:31:01,223] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:31:01,238] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:31:01,293] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 7.619 seconds
+[2022-06-05 11:31:31,765] {scheduler_job.py:182} INFO - Started process (PID=238) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:31:31,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:31:31,818] {logging_mixin.py:104} INFO - [2022-06-05 11:31:31,817] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:31:33,446] {logging_mixin.py:104} INFO - [2022-06-05 11:31:33,443] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:31:33,451] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:31:33,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.820 seconds
+[2022-06-05 11:32:03,572] {scheduler_job.py:182} INFO - Started process (PID=266) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:03,586] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:32:03,593] {logging_mixin.py:104} INFO - [2022-06-05 11:32:03,592] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:04,490] {logging_mixin.py:104} INFO - [2022-06-05 11:32:04,485] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:32:04,495] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:04,566] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.008 seconds
+[2022-06-05 11:32:34,747] {scheduler_job.py:182} INFO - Started process (PID=294) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:34,777] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:32:34,781] {logging_mixin.py:104} INFO - [2022-06-05 11:32:34,781] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:35,590] {logging_mixin.py:104} INFO - [2022-06-05 11:32:35,587] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:32:35,595] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:32:35,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.915 seconds
+[2022-06-05 11:33:05,841] {scheduler_job.py:182} INFO - Started process (PID=321) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:05,858] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:33:05,873] {logging_mixin.py:104} INFO - [2022-06-05 11:33:05,873] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:08,057] {logging_mixin.py:104} INFO - [2022-06-05 11:33:08,049] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:33:08,070] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:08,105] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 2.345 seconds
+[2022-06-05 11:33:45,018] {scheduler_job.py:182} INFO - Started process (PID=351) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:45,030] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:33:45,039] {logging_mixin.py:104} INFO - [2022-06-05 11:33:45,039] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:47,828] {logging_mixin.py:104} INFO - [2022-06-05 11:33:47,825] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:33:47,832] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:33:47,868] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 2.916 seconds
+[2022-06-05 11:34:18,109] {scheduler_job.py:182} INFO - Started process (PID=382) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:18,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:34:18,118] {logging_mixin.py:104} INFO - [2022-06-05 11:34:18,117] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:18,663] {logging_mixin.py:104} INFO - [2022-06-05 11:34:18,656] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:34:18,670] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:18,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.657 seconds
+[2022-06-05 11:34:49,559] {scheduler_job.py:182} INFO - Started process (PID=409) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:49,571] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:34:49,583] {logging_mixin.py:104} INFO - [2022-06-05 11:34:49,579] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:50,858] {logging_mixin.py:104} INFO - [2022-06-05 11:34:50,848] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:34:50,869] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:34:50,923] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.396 seconds
+[2022-06-05 11:35:21,439] {scheduler_job.py:182} INFO - Started process (PID=436) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:21,442] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:35:21,445] {logging_mixin.py:104} INFO - [2022-06-05 11:35:21,445] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:22,085] {logging_mixin.py:104} INFO - [2022-06-05 11:35:22,082] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:35:22,089] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:22,163] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.730 seconds
+[2022-06-05 11:35:53,196] {scheduler_job.py:182} INFO - Started process (PID=463) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:53,201] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:35:53,211] {logging_mixin.py:104} INFO - [2022-06-05 11:35:53,208] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:54,786] {logging_mixin.py:104} INFO - [2022-06-05 11:35:54,775] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:35:54,808] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:35:54,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.686 seconds
+[2022-06-05 11:36:26,230] {scheduler_job.py:182} INFO - Started process (PID=493) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:26,236] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:36:26,242] {logging_mixin.py:104} INFO - [2022-06-05 11:36:26,238] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:27,722] {logging_mixin.py:104} INFO - [2022-06-05 11:36:27,714] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:36:27,734] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:27,794] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.580 seconds
+[2022-06-05 11:36:58,056] {scheduler_job.py:182} INFO - Started process (PID=522) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:58,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:36:58,070] {logging_mixin.py:104} INFO - [2022-06-05 11:36:58,070] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:58,777] {logging_mixin.py:104} INFO - [2022-06-05 11:36:58,775] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:36:58,784] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:36:58,834] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.785 seconds
+[2022-06-05 11:37:29,620] {scheduler_job.py:182} INFO - Started process (PID=551) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:37:29,632] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:37:29,636] {logging_mixin.py:104} INFO - [2022-06-05 11:37:29,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:37:30,250] {logging_mixin.py:104} INFO - [2022-06-05 11:37:30,246] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:37:30,255] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:37:30,304] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.711 seconds
+[2022-06-05 11:38:00,639] {scheduler_job.py:182} INFO - Started process (PID=578) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:38:00,645] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:38:00,650] {logging_mixin.py:104} INFO - [2022-06-05 11:38:00,649] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:38:02,644] {logging_mixin.py:104} INFO - [2022-06-05 11:38:02,635] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 9, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:38:02,652] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:38:02,696] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 2.069 seconds
+[2022-06-05 11:46:44,801] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:46:44,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:46:44,857] {logging_mixin.py:104} INFO - [2022-06-05 11:46:44,856] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:47:05,875] {logging_mixin.py:104} INFO - [2022-06-05 11:47:05,857] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:47:05,939] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:47:06,108] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 21.564 seconds
+[2022-06-05 11:47:36,902] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:47:36,920] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:47:36,945] {logging_mixin.py:104} INFO - [2022-06-05 11:47:36,942] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:47:45,257] {logging_mixin.py:104} INFO - [2022-06-05 11:47:45,238] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:47:45,272] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:47:45,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 8.940 seconds
+[2022-06-05 11:48:16,471] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:16,479] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:48:16,510] {logging_mixin.py:104} INFO - [2022-06-05 11:48:16,500] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:18,046] {logging_mixin.py:104} INFO - [2022-06-05 11:48:18,040] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:48:18,055] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:18,286] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.836 seconds
+[2022-06-05 11:48:48,953] {scheduler_job.py:182} INFO - Started process (PID=134) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:48,972] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:48:49,003] {logging_mixin.py:104} INFO - [2022-06-05 11:48:49,003] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:52,974] {logging_mixin.py:104} INFO - [2022-06-05 11:48:52,970] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:48:52,980] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:48:53,026] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 4.097 seconds
+[2022-06-05 11:49:52,210] {scheduler_job.py:182} INFO - Started process (PID=174) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:49:52,217] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:49:52,221] {logging_mixin.py:104} INFO - [2022-06-05 11:49:52,221] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:49:55,820] {logging_mixin.py:104} INFO - [2022-06-05 11:49:55,808] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:49:55,841] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:49:55,938] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.775 seconds
+[2022-06-05 11:50:26,818] {scheduler_job.py:182} INFO - Started process (PID=205) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:50:26,827] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:50:26,840] {logging_mixin.py:104} INFO - [2022-06-05 11:50:26,840] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:50:29,335] {logging_mixin.py:104} INFO - [2022-06-05 11:50:29,331] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:50:29,349] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:50:29,392] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 2.612 seconds
+[2022-06-05 11:50:59,554] {scheduler_job.py:182} INFO - Started process (PID=235) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:50:59,561] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:50:59,567] {logging_mixin.py:104} INFO - [2022-06-05 11:50:59,565] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:51:01,153] {logging_mixin.py:104} INFO - [2022-06-05 11:51:01,146] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:51:01,172] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:51:01,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.670 seconds
+[2022-06-05 11:51:31,434] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:51:31,438] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:51:31,441] {logging_mixin.py:104} INFO - [2022-06-05 11:51:31,441] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:51:33,097] {logging_mixin.py:104} INFO - [2022-06-05 11:51:33,092] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:51:33,108] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:51:33,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.715 seconds
+[2022-06-05 11:52:04,039] {scheduler_job.py:182} INFO - Started process (PID=290) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:04,043] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:52:04,046] {logging_mixin.py:104} INFO - [2022-06-05 11:52:04,046] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:04,590] {logging_mixin.py:104} INFO - [2022-06-05 11:52:04,585] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:52:04,593] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:04,627] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.595 seconds
+[2022-06-05 11:52:34,714] {scheduler_job.py:182} INFO - Started process (PID=317) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:34,719] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:52:34,724] {logging_mixin.py:104} INFO - [2022-06-05 11:52:34,723] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:35,816] {logging_mixin.py:104} INFO - [2022-06-05 11:52:35,810] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:52:35,829] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:52:35,884] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.181 seconds
+[2022-06-05 11:53:06,869] {scheduler_job.py:182} INFO - Started process (PID=344) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:06,886] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:53:06,895] {logging_mixin.py:104} INFO - [2022-06-05 11:53:06,894] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:07,792] {logging_mixin.py:104} INFO - [2022-06-05 11:53:07,785] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:53:07,801] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:07,840] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.011 seconds
+[2022-06-05 11:53:38,512] {scheduler_job.py:182} INFO - Started process (PID=371) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:38,516] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:53:38,531] {logging_mixin.py:104} INFO - [2022-06-05 11:53:38,530] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:39,369] {logging_mixin.py:104} INFO - [2022-06-05 11:53:39,363] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:53:39,374] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:53:39,408] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.902 seconds
+[2022-06-05 11:54:10,207] {scheduler_job.py:182} INFO - Started process (PID=398) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:10,210] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:54:10,223] {logging_mixin.py:104} INFO - [2022-06-05 11:54:10,223] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:10,698] {logging_mixin.py:104} INFO - [2022-06-05 11:54:10,695] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:54:10,702] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:10,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.537 seconds
+[2022-06-05 11:54:41,155] {scheduler_job.py:182} INFO - Started process (PID=425) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:41,159] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:54:41,161] {logging_mixin.py:104} INFO - [2022-06-05 11:54:41,161] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:41,584] {logging_mixin.py:104} INFO - [2022-06-05 11:54:41,581] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:54:41,588] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:54:41,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.482 seconds
+[2022-06-05 11:55:12,455] {scheduler_job.py:182} INFO - Started process (PID=452) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:12,457] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:55:12,460] {logging_mixin.py:104} INFO - [2022-06-05 11:55:12,459] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:12,888] {logging_mixin.py:104} INFO - [2022-06-05 11:55:12,886] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:55:12,892] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:12,919] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.468 seconds
+[2022-06-05 11:55:43,729] {scheduler_job.py:182} INFO - Started process (PID=479) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:43,732] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:55:43,734] {logging_mixin.py:104} INFO - [2022-06-05 11:55:43,734] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:44,239] {logging_mixin.py:104} INFO - [2022-06-05 11:55:44,236] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:55:44,244] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:55:44,290] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.565 seconds
+[2022-06-05 11:56:15,303] {scheduler_job.py:182} INFO - Started process (PID=506) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:15,307] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:56:15,315] {logging_mixin.py:104} INFO - [2022-06-05 11:56:15,315] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:15,816] {logging_mixin.py:104} INFO - [2022-06-05 11:56:15,809] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:56:15,823] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:15,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.592 seconds
+[2022-06-05 11:56:46,070] {scheduler_job.py:182} INFO - Started process (PID=533) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:46,074] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:56:46,080] {logging_mixin.py:104} INFO - [2022-06-05 11:56:46,079] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:46,715] {logging_mixin.py:104} INFO - [2022-06-05 11:56:46,712] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:56:46,720] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:56:46,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.724 seconds
+[2022-06-05 11:57:18,834] {scheduler_job.py:182} INFO - Started process (PID=560) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:18,842] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:57:18,848] {logging_mixin.py:104} INFO - [2022-06-05 11:57:18,848] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:25,800] {logging_mixin.py:104} INFO - [2022-06-05 11:57:25,757] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:57:25,838] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:26,047] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 7.309 seconds
+[2022-06-05 11:57:56,820] {scheduler_job.py:182} INFO - Started process (PID=587) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:56,831] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:57:56,836] {logging_mixin.py:104} INFO - [2022-06-05 11:57:56,835] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:58,133] {logging_mixin.py:104} INFO - [2022-06-05 11:57:58,125] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:57:58,140] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:57:58,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.377 seconds
+[2022-06-05 11:58:28,586] {scheduler_job.py:182} INFO - Started process (PID=614) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:58:28,596] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:58:28,603] {logging_mixin.py:104} INFO - [2022-06-05 11:58:28,603] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:58:30,083] {logging_mixin.py:104} INFO - [2022-06-05 11:58:30,077] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:58:30,098] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:58:30,175] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.601 seconds
+[2022-06-05 11:59:01,267] {scheduler_job.py:182} INFO - Started process (PID=642) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:01,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:59:01,563] {logging_mixin.py:104} INFO - [2022-06-05 11:59:01,563] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:03,448] {logging_mixin.py:104} INFO - [2022-06-05 11:59:03,444] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:59:03,452] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:03,498] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 2.251 seconds
+[2022-06-05 11:59:33,840] {scheduler_job.py:182} INFO - Started process (PID=669) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:33,849] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 11:59:33,855] {logging_mixin.py:104} INFO - [2022-06-05 11:59:33,855] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:35,028] {logging_mixin.py:104} INFO - [2022-06-05 11:59:35,022] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 11:59:35,037] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 11:59:35,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.376 seconds
+[2022-06-05 12:00:05,619] {scheduler_job.py:182} INFO - Started process (PID=696) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:05,622] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:00:05,625] {logging_mixin.py:104} INFO - [2022-06-05 12:00:05,625] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:06,878] {logging_mixin.py:104} INFO - [2022-06-05 12:00:06,866] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:00:06,937] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:10,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 4.427 seconds
+[2022-06-05 12:00:50,924] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:50,934] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:00:50,947] {logging_mixin.py:104} INFO - [2022-06-05 12:00:50,946] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:51,940] {logging_mixin.py:104} INFO - [2022-06-05 12:00:51,936] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:00:51,950] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:00:52,032] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.126 seconds
+[2022-06-05 12:01:22,884] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:22,889] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:01:22,899] {logging_mixin.py:104} INFO - [2022-06-05 12:01:22,898] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:23,926] {logging_mixin.py:104} INFO - [2022-06-05 12:01:23,921] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:01:23,934] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:23,978] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.100 seconds
+[2022-06-05 12:01:54,105] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:54,107] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:01:54,110] {logging_mixin.py:104} INFO - [2022-06-05 12:01:54,110] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:54,419] {logging_mixin.py:104} INFO - [2022-06-05 12:01:54,417] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:01:54,426] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:01:54,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.387 seconds
+[2022-06-05 12:02:25,632] {scheduler_job.py:182} INFO - Started process (PID=121) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:25,650] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:02:25,675] {logging_mixin.py:104} INFO - [2022-06-05 12:02:25,665] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:26,954] {logging_mixin.py:104} INFO - [2022-06-05 12:02:26,949] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:02:26,967] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:27,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.479 seconds
+[2022-06-05 12:02:57,548] {scheduler_job.py:182} INFO - Started process (PID=158) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:57,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:02:57,567] {logging_mixin.py:104} INFO - [2022-06-05 12:02:57,566] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:58,982] {logging_mixin.py:104} INFO - [2022-06-05 12:02:58,972] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:02:58,991] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:02:59,036] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.495 seconds
+[2022-06-05 12:03:29,463] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:03:29,468] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:03:29,485] {logging_mixin.py:104} INFO - [2022-06-05 12:03:29,484] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:03:31,100] {logging_mixin.py:104} INFO - [2022-06-05 12:03:31,046] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:03:31,109] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:03:31,163] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.718 seconds
+[2022-06-05 12:04:01,604] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:04:01,618] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:04:01,624] {logging_mixin.py:104} INFO - [2022-06-05 12:04:01,623] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:04:02,534] {logging_mixin.py:104} INFO - [2022-06-05 12:04:02,522] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 10, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2022-06-05 12:04:02,542] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:04:02,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 1.009 seconds
+[2022-06-05 12:10:27,929] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:10:27,935] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:10:27,938] {logging_mixin.py:104} INFO - [2022-06-05 12:10:27,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:10:32,802] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:10:32,842] {logging_mixin.py:104} INFO - [2022-06-05 12:10:32,808] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:10:32,848] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:10:32,909] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 4.988 seconds
+[2022-06-05 12:18:31,501] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:18:31,544] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:18:31,567] {logging_mixin.py:104} INFO - [2022-06-05 12:18:31,566] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:18:35,246] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:18:35,281] {logging_mixin.py:104} INFO - [2022-06-05 12:18:35,257] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:18:35,285] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:18:35,347] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.881 seconds
+[2022-06-05 12:19:05,661] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:05,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:19:05,677] {logging_mixin.py:104} INFO - [2022-06-05 12:19:05,677] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:08,867] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:19:08,885] {logging_mixin.py:104} INFO - [2022-06-05 12:19:08,872] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:19:08,890] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:08,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 3.315 seconds
+[2022-06-05 12:19:39,747] {scheduler_job.py:182} INFO - Started process (PID=100) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:39,755] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:19:39,758] {logging_mixin.py:104} INFO - [2022-06-05 12:19:39,758] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:40,557] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:19:40,575] {logging_mixin.py:104} INFO - [2022-06-05 12:19:40,565] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:19:40,580] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:19:40,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.897 seconds
+[2022-06-05 12:20:11,520] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:11,523] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:20:11,526] {logging_mixin.py:104} INFO - [2022-06-05 12:20:11,526] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:11,943] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:20:11,955] {logging_mixin.py:104} INFO - [2022-06-05 12:20:11,947] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:20:11,959] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:11,986] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.472 seconds
+[2022-06-05 12:20:42,182] {scheduler_job.py:182} INFO - Started process (PID=154) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:42,187] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:20:42,191] {logging_mixin.py:104} INFO - [2022-06-05 12:20:42,191] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:42,765] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:20:42,780] {logging_mixin.py:104} INFO - [2022-06-05 12:20:42,771] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:20:42,786] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:20:42,824] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.652 seconds
+[2022-06-05 12:21:13,853] {scheduler_job.py:182} INFO - Started process (PID=181) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:13,861] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:21:13,864] {logging_mixin.py:104} INFO - [2022-06-05 12:21:13,863] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:14,269] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:21:14,277] {logging_mixin.py:104} INFO - [2022-06-05 12:21:14,272] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:21:14,281] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:14,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.472 seconds
+[2022-06-05 12:21:44,720] {scheduler_job.py:182} INFO - Started process (PID=208) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:44,724] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:21:44,735] {logging_mixin.py:104} INFO - [2022-06-05 12:21:44,735] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:45,101] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:21:45,106] {logging_mixin.py:104} INFO - [2022-06-05 12:21:45,103] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:21:45,111] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:21:45,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.438 seconds
+[2022-06-05 12:22:15,904] {scheduler_job.py:182} INFO - Started process (PID=235) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:15,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:22:15,917] {logging_mixin.py:104} INFO - [2022-06-05 12:22:15,917] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:16,360] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:22:16,395] {logging_mixin.py:104} INFO - [2022-06-05 12:22:16,379] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:22:16,407] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:16,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.575 seconds
+[2022-06-05 12:22:47,359] {scheduler_job.py:182} INFO - Started process (PID=262) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:47,362] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:22:47,363] {logging_mixin.py:104} INFO - [2022-06-05 12:22:47,363] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:47,779] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:22:47,784] {logging_mixin.py:104} INFO - [2022-06-05 12:22:47,781] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:22:47,788] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:22:47,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.458 seconds
+[2022-06-05 12:23:18,675] {scheduler_job.py:182} INFO - Started process (PID=289) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:18,679] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:23:18,683] {logging_mixin.py:104} INFO - [2022-06-05 12:23:18,682] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:19,059] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:23:19,067] {logging_mixin.py:104} INFO - [2022-06-05 12:23:19,062] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:23:19,070] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:19,103] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.439 seconds
+[2022-06-05 12:23:49,756] {scheduler_job.py:182} INFO - Started process (PID=317) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:49,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:23:49,761] {logging_mixin.py:104} INFO - [2022-06-05 12:23:49,761] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:50,118] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:23:50,124] {logging_mixin.py:104} INFO - [2022-06-05 12:23:50,120] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:23:50,127] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:23:50,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.394 seconds
+[2022-06-05 12:24:20,610] {scheduler_job.py:182} INFO - Started process (PID=344) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:20,612] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:24:20,614] {logging_mixin.py:104} INFO - [2022-06-05 12:24:20,614] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:20,963] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:24:20,969] {logging_mixin.py:104} INFO - [2022-06-05 12:24:20,966] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:24:20,971] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:20,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.385 seconds
+[2022-06-05 12:24:51,880] {scheduler_job.py:182} INFO - Started process (PID=371) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:51,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:24:51,894] {logging_mixin.py:104} INFO - [2022-06-05 12:24:51,893] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:52,388] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:24:52,397] {logging_mixin.py:104} INFO - [2022-06-05 12:24:52,391] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:24:52,402] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:24:52,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.552 seconds
+[2022-06-05 12:25:22,666] {scheduler_job.py:182} INFO - Started process (PID=398) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:22,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:25:22,680] {logging_mixin.py:104} INFO - [2022-06-05 12:25:22,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:23,189] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:25:23,200] {logging_mixin.py:104} INFO - [2022-06-05 12:25:23,192] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:25:23,204] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:23,253] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.609 seconds
+[2022-06-05 12:25:53,304] {scheduler_job.py:182} INFO - Started process (PID=426) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:53,307] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:25:53,309] {logging_mixin.py:104} INFO - [2022-06-05 12:25:53,309] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:53,752] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:25:53,762] {logging_mixin.py:104} INFO - [2022-06-05 12:25:53,755] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:25:53,766] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:25:54,015] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.716 seconds
+[2022-06-05 12:26:24,358] {scheduler_job.py:182} INFO - Started process (PID=453) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:24,362] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:26:24,366] {logging_mixin.py:104} INFO - [2022-06-05 12:26:24,365] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:24,722] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:26:24,729] {logging_mixin.py:104} INFO - [2022-06-05 12:26:24,725] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:26:24,732] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:24,846] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.493 seconds
+[2022-06-05 12:26:55,699] {scheduler_job.py:182} INFO - Started process (PID=480) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:55,705] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:26:55,709] {logging_mixin.py:104} INFO - [2022-06-05 12:26:55,709] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:56,201] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:26:56,213] {logging_mixin.py:104} INFO - [2022-06-05 12:26:56,206] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:26:56,217] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:26:56,253] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.566 seconds
+[2022-06-05 12:27:26,993] {scheduler_job.py:182} INFO - Started process (PID=507) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:27,002] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:27:27,017] {logging_mixin.py:104} INFO - [2022-06-05 12:27:27,016] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:27,690] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:27:27,701] {logging_mixin.py:104} INFO - [2022-06-05 12:27:27,694] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:27:27,705] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:27,750] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.765 seconds
+[2022-06-05 12:27:58,134] {scheduler_job.py:182} INFO - Started process (PID=534) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:58,140] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:27:58,144] {logging_mixin.py:104} INFO - [2022-06-05 12:27:58,144] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:58,773] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:27:58,780] {logging_mixin.py:104} INFO - [2022-06-05 12:27:58,776] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:27:58,786] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:27:58,816] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.691 seconds
+[2022-06-05 12:28:29,647] {scheduler_job.py:182} INFO - Started process (PID=561) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:28:29,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:28:29,654] {logging_mixin.py:104} INFO - [2022-06-05 12:28:29,654] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:28:30,216] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:28:30,221] {logging_mixin.py:104} INFO - [2022-06-05 12:28:30,218] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:28:30,225] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:28:30,250] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.611 seconds
+[2022-06-05 12:29:01,247] {scheduler_job.py:182} INFO - Started process (PID=591) to work on /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:29:01,251] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Hw1_Q1.py for tasks to queue
+[2022-06-05 12:29:01,254] {logging_mixin.py:104} INFO - [2022-06-05 12:29:01,253] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:29:01,896] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-06-05 12:29:01,905] {logging_mixin.py:104} INFO - [2022-06-05 12:29:01,900] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/Hw1_Q1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Hw1_Q1.py", line 74, in <module>
+    dag=dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 103, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-06-05 12:29:01,910] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/Hw1_Q1.py
+[2022-06-05 12:29:01,933] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Hw1_Q1.py took 0.695 seconds
